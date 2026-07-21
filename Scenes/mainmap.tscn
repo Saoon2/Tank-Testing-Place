@@ -1,8 +1,8 @@
-[gd_scene format=3 uid="uid://bmeg46mfh6iry"]
+[gd_scene format=3 uid="uid://udmf4d3yxs8y"]
 
 [ext_resource type="Texture2D" uid="uid://d1ughv1gquwgp" path="res://Sprites/Backgrounds/three-color-checkerboard.png" id="1_uq1po"]
-[ext_resource type="PackedScene" uid="uid://dks263tkuxwpv" path="res://player.tscn" id="2_hgrk1"]
-[ext_resource type="PackedScene" uid="uid://kblvod6yf216" path="res://dummy_enemy.tscn" id="3_n0cvs"]
+[ext_resource type="PackedScene" uid="uid://bcny0ulu4v2kr" path="res://Player.tscn" id="2_hgrk1"]
+[ext_resource type="PackedScene" uid="uid://b6o27abhc1nn6" path="res://dummy_enemy.tscn" id="3_n0cvs"]
 
 [node name="Main" type="Node2D" unique_id=270358279]
 
