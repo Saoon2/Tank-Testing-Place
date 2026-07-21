@@ -1,5 +1,9 @@
 78098b89c88a74ebe8c20117b8754620
-::res://::1784668952
+::res://::1784669004
+dummy_enemy.tscn::PackedScene::704658944128931655::1784668964::0::1::::<><><>0<>0<><>::uid://krlexculkpsi::::res://Sprites/Enemies/Dummy.png
+laser.tscn::PackedScene::5380878529804470071::1784668996::0::1::::<><><>0<>0<><>::res://laser.gd<>uid://dvfla5xh740er::::res://Sprites/Projectiles/Laser.png
+mainmap.tscn::PackedScene::3237362055344836738::1784668976::0::1::::<><><>0<>0<><>::uid://d1ughv1gquwgp::::res://Sprites/Backgrounds/three-color-checkerboard.png<>uid://dks263tkuxwpv::::res://player.tscn<>uid://kblvod6yf216::::res://dummy_enemy.tscn
+player.tscn::PackedScene::7900005505935548131::1784668964::0::1::::<><><>0<>0<><>::res://Scenes/character_body_2d.gd<>uid://dr0qqqfo0n58e::::res://Sprites/Particles/Tank_Tread_v2.png<>uid://dvihw2bvn5yqe::::res://Sprites/Player/Backwards/Tank_Backward1.png<>uid://0rf3vc2qm685::::res://Sprites/Player/Backwards/Tank_Backward2.png<>uid://ch7u3m7jeu76j::::res://Sprites/Player/Backwards/Tank_Backward3.png<>uid://doqy35ve8uof0::::res://Sprites/Player/Backwards/Tank_Backward4.png<>res://Tank_Forward.png<>uid://d4iib8ob7g6oy::::res://Sprites/Player/Forward/Sprite-0004.png<>uid://b0xs7tgbbnv8s::::res://Sprites/Player/Forward/Sprite-0005.png<>uid://bm72nokmwd500::::res://Sprites/Player/Forward/Sprite-0006.png<>uid://b4asxkvhqd7j7::::res://Sprites/Player/Forward/Sprite-0007.png<>uid://h2d5c5ff5827::::res://Sprites/Player/Left/Tank_left1.png<>uid://bpkwy0cvowhk3::::res://Sprites/Player/Left/Tank_left2.png<>uid://dxq83qntefloi::::res://Sprites/Player/Left/Tank_left3.png<>uid://dp8ayruu0f3aa::::res://Sprites/Player/Left/Tank_left4.png<>uid://bi64g0cxwn3ef::::res://Sprites/Player/Right/Sprite_Right1.png<>uid://cvn1pbxe0tned::::res://Sprites/Player/Right/Sprite_Right2.png<>uid://bwp67yvhb53of::::res://Sprites/Player/Right/Sprite_Right3.png<>uid://d13bpr1lme4ad::::res://Sprites/Player/Right/Sprite_Right4.png<>res://laser_gun.gd<>uid://bmviw5mip3fpx::::res://Sfx/explosion.wav<>uid://ciwsjvoca7ivn::::res://laser.tscn<>uid://4njcb2jhlewq::::res://Sprites/Weapons/Lazer3.png<>uid://dikqqvnnc0by1::::res://Sfx/turretsound.wav
 ::res://Scenes/::1784668943
 dummy_enemy.tscn::PackedScene::4592872631105155485::1784668943::0::1::::<><><>0<>0<><>::
 laser.tscn::PackedScene::6418616386937303237::1784668943::0::1::::<><><>0<>0<><>::
@@ -31,7 +35,7 @@ Tank_Backward1.png::CompressedTexture2D::8650208516573716388::1784513873::178466
 Tank_Backward2.png::CompressedTexture2D::1790170207291603516::1784513873::1784665471::1::::<><><>0<>0<>47f1d41fce27a20f8f460f376de78770<>res://.godot/imported/Tank_Backward2.png-4978263be0557c24ef23cca6f8fdee47.ctex::
 Tank_Backward3.png::CompressedTexture2D::5331488383196039335::1784513873::1784665471::1::::<><><>0<>0<>742599b49ae64f7633beb9277dbe7665<>res://.godot/imported/Tank_Backward3.png-e5caa95cc9aecafc92aeb368162fc76f.ctex::
 Tank_Backward4.png::CompressedTexture2D::8176444724500485483::1784513873::1784665471::1::::<><><>0<>0<>ea72e1e1715aefae38267ea98c9c5c3a<>res://.godot/imported/Tank_Backward4.png-e58c1c890419e13562b3f59d8ea85bb2.ctex::
-::res://Sprites/Player/Forward/::1784668957
+::res://Sprites/Player/Forward/::1784668962
 Sprite-0004.png::CompressedTexture2D::9211742815337044032::1784514560::1784665474::1::::<><><>0<>0<>2dd7b9697fff7ca90cf920230a5c8bae<>res://.godot/imported/Sprite-0004.png-58b6986a8fa6df33b50daafebef27b2e.ctex::
 Sprite-0005.png::CompressedTexture2D::4189773521521825888::1784514560::1784665474::1::::<><><>0<>0<>e1af3a76131cb8b4834f0181e2dd552b<>res://.godot/imported/Sprite-0005.png-7fba990f3391e04235baff65addc7115.ctex::
 Sprite-0006.png::CompressedTexture2D::3296410220954584795::1784514560::1784665474::1::::<><><>0<>0<>fc7461c4b290068231592e9fc4e00aa2<>res://.godot/imported/Sprite-0006.png-c037cb854dc55e294f14236dccf49ed5.ctex::

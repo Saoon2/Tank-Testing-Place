@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://ciwsjvoca7ivn"]
 
-[ext_resource type="Script" path="res://laser.gd" id="1_6vqwg"]
+[ext_resource type="Script" uid="uid://d03aeecww7lk6" path="res://Scripts/laser.gd" id="1_6vqwg"]
 [ext_resource type="Texture2D" uid="uid://dvfla5xh740er" path="res://Sprites/Projectiles/Laser.png" id="2_g6b45"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_d64cw"]
