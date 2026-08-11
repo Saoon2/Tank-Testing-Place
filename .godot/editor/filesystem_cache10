@@ -1,5 +1,5 @@
 78098b89c88a74ebe8c20117b8754620
-::res://::1786465466
+::res://::1786473087
 dummy_enemy.tscn::PackedScene::704658944128931655::1786465427::0::1::::<><><>0<>0<><>::uid://krlexculkpsi::::res://Sprites/Enemies/Dummy.png
 laser.tscn::PackedScene::5380878529804470071::1786465427::0::1::::<><><>0<>0<><>::uid://d03aeecww7lk6::::res://Scripts/laser.gd<>uid://dvfla5xh740er::::res://Sprites/Projectiles/Laser.png
 mainmap.tscn::PackedScene::3237362055344836738::1786465427::0::1::::<><><>0<>0<><>::uid://d1ughv1gquwgp::::res://Sprites/Backgrounds/three-color-checkerboard.png<>uid://dks263tkuxwpv::::res://player.tscn<>uid://kblvod6yf216::::res://dummy_enemy.tscn
