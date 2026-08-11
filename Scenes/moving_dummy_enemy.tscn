@@ -18,8 +18,18 @@
 [ext_resource type="Texture2D" uid="uid://cr5qj4lai0xrw" path="res://Sprites/Enemies/Moving_Dummy/Forward/enemy_forward16.png" id="16_h54ma"]
 
 [sub_resource type="GDScript" id="GDScript_aho7k"]
+script/source = "extends RigidBody2D
 
-[sub_resource type="SpriteFrames" id="SpriteFrames_6fkvu"]
+
+
+func _ready() -> void:
+	pass
+
+func _physics_process(delta):
+	self.rotate(2)
+"
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_7b7lb"]
 animations = [{
 "frames": [{
 "duration": 1.0,
@@ -83,10 +93,9 @@ gravity_scale = 0.0
 script = SubResource("GDScript_aho7k")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=146348051]
-sprite_frames = SubResource("SpriteFrames_6fkvu")
+sprite_frames = SubResource("SpriteFrames_7b7lb")
 animation = &"moving"
 autoplay = "moving"
-frame_progress = 0.37020874
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=944374207]
 position = Vector2(0, -0.5)
