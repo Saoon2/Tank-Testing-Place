@@ -12,6 +12,7 @@ func _physics_process(delta):
 
 func _on_body_entered(body: Node2D) -> void:
 	if body.is_in_group("mobs"):
+		
 		#explosion animaton ? Instantiate explosition
 		body.queue_free()
 	
