@@ -1,21 +1,6 @@
 [gd_scene format=3 uid="uid://b6o27abhc1nn6"]
 
-[ext_resource type="Texture2D" uid="uid://f7ghlk4p50qd" path="res://Sprites/Enemies/Moving_Dummy/Forward/enemy_forward1.png" id="1_f2nmj"]
-[ext_resource type="Texture2D" uid="uid://duxov14acwtvl" path="res://Sprites/Enemies/Moving_Dummy/Forward/enemy_forward2.png" id="2_fif70"]
-[ext_resource type="Texture2D" uid="uid://hnl7fjcsitth" path="res://Sprites/Enemies/Moving_Dummy/Forward/enemy_forward3.png" id="3_6mxtb"]
-[ext_resource type="Texture2D" uid="uid://beuwvviyatdnn" path="res://Sprites/Enemies/Moving_Dummy/Forward/enemy_forward4.png" id="4_cknia"]
-[ext_resource type="Texture2D" uid="uid://by87ybo7vha4t" path="res://Sprites/Enemies/Moving_Dummy/Forward/enemy_forward5.png" id="5_b4gv8"]
-[ext_resource type="Texture2D" uid="uid://bsh1uijsgcbe0" path="res://Sprites/Enemies/Moving_Dummy/Forward/enemy_forward6.png" id="6_k203m"]
-[ext_resource type="Texture2D" uid="uid://dxay0fbpollba" path="res://Sprites/Enemies/Moving_Dummy/Forward/enemy_forward7.png" id="7_6dgme"]
-[ext_resource type="Texture2D" uid="uid://ck636i1s384i6" path="res://Sprites/Enemies/Moving_Dummy/Forward/enemy_forward8.png" id="8_nt6yp"]
-[ext_resource type="Texture2D" uid="uid://dgrf7bvswr27x" path="res://Sprites/Enemies/Moving_Dummy/Forward/enemy_forward9.png" id="9_t80r6"]
-[ext_resource type="Texture2D" uid="uid://dkuxaxlojojrr" path="res://Sprites/Enemies/Moving_Dummy/Forward/enemy_forward10.png" id="10_0jm2g"]
-[ext_resource type="Texture2D" uid="uid://c3jfmr2mlsqb5" path="res://Sprites/Enemies/Moving_Dummy/Forward/enemy_forward11.png" id="11_26odk"]
-[ext_resource type="Texture2D" uid="uid://b8wy2p02movgb" path="res://Sprites/Enemies/Moving_Dummy/Forward/enemy_forward12.png" id="12_17k4q"]
-[ext_resource type="Texture2D" uid="uid://k7p3cubo0jnq" path="res://Sprites/Enemies/Moving_Dummy/Forward/enemy_forward13.png" id="13_ej5lr"]
-[ext_resource type="Texture2D" uid="uid://de27sdo735bp4" path="res://Sprites/Enemies/Moving_Dummy/Forward/enemy_forward14.png" id="14_nuwoj"]
-[ext_resource type="Texture2D" uid="uid://cw4prsw1xnvs5" path="res://Sprites/Enemies/Moving_Dummy/Forward/enemy_forward15.png" id="15_p66m6"]
-[ext_resource type="Texture2D" uid="uid://cr5qj4lai0xrw" path="res://Sprites/Enemies/Moving_Dummy/Forward/enemy_forward16.png" id="16_fmjtg"]
+[ext_resource type="Texture2D" uid="uid://krlexculkpsi" path="res://Sprites/Enemies/Dummy.png" id="1_aho7k"]
 
 [sub_resource type="GDScript" id="GDScript_aho7k"]
 script/source = "extends RigidBody2D
@@ -33,56 +18,11 @@ func _physics_process(delta):
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("1_f2nmj")
-}, {
-"duration": 1.0,
-"texture": ExtResource("2_fif70")
-}, {
-"duration": 1.0,
-"texture": ExtResource("3_6mxtb")
-}, {
-"duration": 1.0,
-"texture": ExtResource("4_cknia")
-}, {
-"duration": 1.0,
-"texture": ExtResource("5_b4gv8")
-}, {
-"duration": 1.0,
-"texture": ExtResource("6_k203m")
-}, {
-"duration": 1.0,
-"texture": ExtResource("7_6dgme")
-}, {
-"duration": 1.0,
-"texture": ExtResource("8_nt6yp")
-}, {
-"duration": 1.0,
-"texture": ExtResource("9_t80r6")
-}, {
-"duration": 1.0,
-"texture": ExtResource("10_0jm2g")
-}, {
-"duration": 1.0,
-"texture": ExtResource("11_26odk")
-}, {
-"duration": 1.0,
-"texture": ExtResource("12_17k4q")
-}, {
-"duration": 1.0,
-"texture": ExtResource("13_ej5lr")
-}, {
-"duration": 1.0,
-"texture": ExtResource("14_nuwoj")
-}, {
-"duration": 1.0,
-"texture": ExtResource("15_p66m6")
-}, {
-"duration": 1.0,
-"texture": ExtResource("16_fmjtg")
+"texture": ExtResource("1_aho7k")
 }],
 "loop": 1,
-"name": &"moving",
-"speed": 10.0
+"name": &"idle",
+"speed": 5.0
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_6fkvu"]
@@ -94,7 +34,7 @@ script = SubResource("GDScript_aho7k")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=146348051]
 sprite_frames = SubResource("SpriteFrames_6fkvu")
-animation = &"moving"
+animation = &"idle"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=944374207]
 position = Vector2(0, -0.5)

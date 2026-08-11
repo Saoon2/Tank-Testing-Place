@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://bylsr0ii8rd4l"]
 
 [ext_resource type="Texture2D" uid="uid://f7ghlk4p50qd" path="res://Sprites/Enemies/Moving_Dummy/Forward/enemy_forward1.png" id="1_7b7lb"]
+[ext_resource type="Script" uid="uid://bekxgs5rk07hb" path="res://Scenes/moving_dummy_enemy.gd" id="1_vp6i5"]
 [ext_resource type="Texture2D" uid="uid://duxov14acwtvl" path="res://Sprites/Enemies/Moving_Dummy/Forward/enemy_forward2.png" id="2_vp6i5"]
 [ext_resource type="Texture2D" uid="uid://hnl7fjcsitth" path="res://Sprites/Enemies/Moving_Dummy/Forward/enemy_forward3.png" id="3_mly7o"]
 [ext_resource type="Texture2D" uid="uid://beuwvviyatdnn" path="res://Sprites/Enemies/Moving_Dummy/Forward/enemy_forward4.png" id="4_k5acd"]
@@ -16,18 +17,6 @@
 [ext_resource type="Texture2D" uid="uid://de27sdo735bp4" path="res://Sprites/Enemies/Moving_Dummy/Forward/enemy_forward14.png" id="14_we42t"]
 [ext_resource type="Texture2D" uid="uid://cw4prsw1xnvs5" path="res://Sprites/Enemies/Moving_Dummy/Forward/enemy_forward15.png" id="15_cxqm3"]
 [ext_resource type="Texture2D" uid="uid://cr5qj4lai0xrw" path="res://Sprites/Enemies/Moving_Dummy/Forward/enemy_forward16.png" id="16_h54ma"]
-
-[sub_resource type="GDScript" id="GDScript_aho7k"]
-script/source = "extends RigidBody2D
-
-
-
-func _ready() -> void:
-	pass
-
-func _physics_process(delta):
-	self.rotate(2)
-"
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_7b7lb"]
 animations = [{
@@ -90,7 +79,7 @@ size = Vector2(16, 17)
 
 [node name="MovingDummyEnemy" type="RigidBody2D" unique_id=2128908345]
 gravity_scale = 0.0
-script = SubResource("GDScript_aho7k")
+script = ExtResource("1_vp6i5")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=146348051]
 sprite_frames = SubResource("SpriteFrames_7b7lb")
