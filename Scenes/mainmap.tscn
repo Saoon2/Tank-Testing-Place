@@ -1,8 +1,9 @@
 [gd_scene format=3 uid="uid://udmf4d3yxs8y"]
 
 [ext_resource type="Texture2D" uid="uid://d1ughv1gquwgp" path="res://Sprites/Backgrounds/three-color-checkerboard.png" id="1_uq1po"]
-[ext_resource type="PackedScene" uid="uid://bcny0ulu4v2kr" path="res://Player.tscn" id="2_hgrk1"]
-[ext_resource type="PackedScene" uid="uid://b6o27abhc1nn6" path="res://dummy_enemy.tscn" id="3_n0cvs"]
+[ext_resource type="PackedScene" uid="uid://bcny0ulu4v2kr" path="res://Scenes/player.tscn" id="2_hgrk1"]
+[ext_resource type="PackedScene" uid="uid://b6o27abhc1nn6" path="res://Scenes/dummy_enemy.tscn" id="3_n0cvs"]
+[ext_resource type="PackedScene" uid="uid://bylsr0ii8rd4l" path="res://Scenes/moving_dummy_enemy.tscn" id="4_1iwlp"]
 
 [node name="Main" type="Node2D" unique_id=270358279]
 
@@ -16,7 +17,6 @@ position = Vector2(124, 175)
 
 [node name="Camera2D" type="Camera2D" parent="CharacterBody2D" unique_id=902416186]
 position = Vector2(0, 6)
-zoom = Vector2(0.75, 0.75)
 limit_enabled = false
 position_smoothing_speed = 1.0
 
@@ -37,3 +37,9 @@ position = Vector2(138, 120)
 
 [node name="DummyEnemy4" parent="." unique_id=1581861352 instance=ExtResource("3_n0cvs")]
 position = Vector2(163, 186)
+
+[node name="MovingDummyEnemy" parent="." unique_id=2128908345 instance=ExtResource("4_1iwlp")]
+position = Vector2(42, 172)
+
+[node name="MovingDummyEnemy2" parent="." unique_id=197016609 instance=ExtResource("4_1iwlp")]
+position = Vector2(196, 204)
