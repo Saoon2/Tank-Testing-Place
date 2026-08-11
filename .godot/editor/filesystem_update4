@@ -1,6 +1,1 @@
-res://Scenes/dummy_enemy.tscn
-res://Scenes/moving_dummy_enemy.tscn
-res://Scenes/mainmap.tscn
 res://Scenes/laser.tscn
-res://Scripts/laser.gd
-res://Scenes/moving_dummy_enemy.gd
